@@ -1,0 +1,10 @@
+language: java
+jdk:
+    - oraclejdk8
+
+build:
+    ci:
+    - mkdir -p shippable/testresults
+    - mvn test
+    - mvn install
+    - cp -r target shippab
