@@ -7,4 +7,4 @@ build:
     - mkdir -p shippable/testresults
     - mvn test
     - mvn install
-    - cp -r target partbee-1.0-SNAPSHOT.jar
+    - cp -r target/partbee-1.0-SNAPSHOT.jar shippab
